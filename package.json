@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TerenceLee100/vconsole-webpack-plugin.git"
+    "url": "git+https://github.com/TerenceLee100/vconsole-dajia-webpack-plugin.git"
   },
   "keywords": [
     "webpack",
@@ -22,9 +22,9 @@
   "author": "diamont1001",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TerenceLee100/vconsole-webpack-plugin/issues"
+    "url": "https://github.com/TerenceLee100/vconsole-dajia-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/TerenceLee100/vconsole-webpack-plugin#readme",
+  "homepage": "https://github.com/TerenceLee100/vconsole-dajia-webpack-plugin#readme",
   "dependencies": {
     "vconsole": "^3.1.0"
   },

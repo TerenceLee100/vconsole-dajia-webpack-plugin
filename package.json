@@ -4,7 +4,7 @@
   "description": "dajia webpack plugin for vConsole",
   "main": "index.js",
   "scripts": {
-    "publish": "npm version minor && npm publish --reg=http://nexus.g2work.com/repository/dajia-npm/",
+    "publish": "npm publish --reg=http://nexus.g2work.com/repository/dajia-npm/",
     "lint": "eslint index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

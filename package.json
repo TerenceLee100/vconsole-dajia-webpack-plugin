@@ -1,9 +1,10 @@
 {
-  "name": "vconsole-webpack-plugin",
+  "name": "vconsole-dajia-webpack-plugin",
   "version": "1.3.0",
-  "description": "webpack plugin for vConsole",
+  "description": "dajia webpack plugin for vConsole",
   "main": "index.js",
   "scripts": {
+    "publish": "npm publish --reg=http://nexus.g2work.com/repository/dajia-npm/",
     "lint": "eslint index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

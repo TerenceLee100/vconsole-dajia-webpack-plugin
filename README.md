@@ -1,4 +1,4 @@
-# vconsole-webpack-plugin
+# vconsole-dajia-webpack-plugin
 webpack plugin for [vConsole](https://github.com/WechatFE/vConsole)
 
 帮助开发者在移动端进行调试，本插件是在 [vConsole](https://github.com/WechatFE/vConsole) 的基础上封装的 `webpack` 插件，通过 `webpack` 配置即可自动添加 `vConsole` 调试功能，方便实用。
@@ -6,7 +6,7 @@ webpack plugin for [vConsole](https://github.com/WechatFE/vConsole)
 ## 安装
 
 ```bash
-npm install vconsole-webpack-plugin --save-dev
+npm install vconsole-dajia-webpack-plugin --save-dev
 ```
 
 ## 使用
@@ -15,7 +15,7 @@ npm install vconsole-webpack-plugin --save-dev
 
 ```js
 // 引入插件
-var vConsolePlugin = require('vconsole-webpack-plugin'); 
+var vConsolePlugin = require('vconsole-dajia-webpack-plugin'); 
 
 module.exports = {
     ...
@@ -46,7 +46,7 @@ scripts: {
 
 ```js
 // 引入插件
-var vConsolePlugin = require('vconsole-webpack-plugin'); 
+var vConsolePlugin = require('vconsole-dajia-webpack-plugin'); 
 
 // 接收运行参数
 const argv = require('yargs')
@@ -65,5 +65,3 @@ module.exports = {
 ```
 
 这样，在开发的时候运行 `npm run dev`，发布的时候运行 `npm run prod` 即可。
-
-## 例子参考: [webpack-demo](https://github.com/diamont1001/webpack-demo/tree/master/example1)

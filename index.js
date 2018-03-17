@@ -23,9 +23,9 @@ function vConsolePlugin(options) {
 
 vConsolePlugin.prototype.apply = function(compiler) {
     const enable = this.options.enable;
-    let pathVconsole = 'vconsole-webpack-plugin/src/vconsole.js';
+    let pathVconsole = 'vconsole-dajia-webpack-plugin/src/vconsole.js';
     const _root = module.parent.paths.find(item => {
-        let tmpPathVconsole = path.join(item, 'vconsole-webpack-plugin/src/vconsole.js');
+        let tmpPathVconsole = path.join(item, 'vconsole-dajia-webpack-plugin/src/vconsole.js');
         if (fs.existsSync(item) && fs.existsSync(tmpPathVconsole)) {
             pathVconsole = tmpPathVconsole;
             return true;
@@ -40,7 +40,7 @@ vConsolePlugin.prototype.apply = function(compiler) {
                 if (!that.find([this.options.entry])) {
                     // TODO: entry 为 string 时，修改不了，只有 object 才可以修改
                     this.options.entry = [pathVconsole, this.options.entry];
-                    console.warn('[vconsole-webpack-plugin] 暂不支持 entry 为 string 类型的情况\n');
+                    console.warn('[vconsole-dajia-webpack-plugin] 暂不支持 entry 为 string 类型的情况\n');
                 }
             } else if (Object.prototype.toString.call(this.options.entry) === '[object Array]') {
                 if (!that.find(this.options.entry)) {

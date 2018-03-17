@@ -2,7 +2,7 @@
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin'); // Html文件处理
 const HtmlWebpackIncludeAssetsPlugin = require('html-webpack-include-assets-plugin');
-// const vConsolePlugin = require('vconsole-webpack-plugin'); 
+// const vConsolePlugin = require('vconsole-dajia-webpack-plugin');
 const vConsolePlugin = require('../../index.js'); 
 
 // 接收运行参数

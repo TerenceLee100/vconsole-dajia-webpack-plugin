@@ -1,6 +1,6 @@
 {
   "name": "vconsole-dajia-webpack-plugin",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "dajia webpack plugin for vConsole",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diamont1001/vconsole-webpack-plugin.git"
+    "url": "git+https://github.com/TerenceLee100/vconsole-webpack-plugin.git"
   },
   "keywords": [
     "webpack",
@@ -22,9 +22,9 @@
   "author": "diamont1001",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/diamont1001/vconsole-webpack-plugin/issues"
+    "url": "https://github.com/TerenceLee100/vconsole-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/diamont1001/vconsole-webpack-plugin#readme",
+  "homepage": "https://github.com/TerenceLee100/vconsole-webpack-plugin#readme",
   "dependencies": {
     "vconsole": "^3.1.0"
   },

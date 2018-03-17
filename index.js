@@ -69,7 +69,13 @@ vConsolePlugin.prototype.apply = function(compiler) {
 vConsolePlugin.prototype.find = function(arr) {
     for (var i = 0; i < arr.length; i++) {
         // 去重，避免两次初始化 vconsole
-        const data = codeClean((fs.readFileSync(arr[i]) || '').toString());
+        const data = "";
+        try{
+            data = codeClean((fs.readFileSync(arr[i]) || '').toString());
+        } catch(err) {
+            console.log(err);
+        }
+
         if (data.toLowerCase().indexOf('new vconsole(') >= 0
             || data.indexOf('new require(\'vconsole') >= 0
             || data.indexOf('new require("vconsole') >= 0

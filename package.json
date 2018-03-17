@@ -1,6 +1,6 @@
 {
   "name": "vconsole-dajia-webpack-plugin",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "dajia webpack plugin for vConsole",
   "main": "index.js",
   "scripts": {
